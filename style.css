@@ -1,0 +1,238 @@
+/*===========================================================================
+  = Theme Name: Wrapper
+  = Theme URI: http://www.guardiansoftware.net/
+  = Description: Simple theme for displaying blog inside a wrapper or iframe.
+  = Version: 1.0.0
+  = Author: Guardian Software Solutions
+  = Author URI: http://www.guardiansoftware.net/
+  ===========================================================================*/
+  
+/*************************************************************
+ * Default values.
+ *************************************************************/
+  
+body, h1, h2, h3, h4, h5, h6, blockquote, p, form
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  background: white;
+  color: black;
+
+  vertical-align: top;
+  
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+/*************************************************************
+ * Font sizes.
+ *************************************************************/
+ 
+h1
+{
+  font-size: 24px;
+  padding: 0 0 10px 0;
+}
+
+.post
+{
+  padding: 10px 0 10px 5px;
+}
+
+.post h2
+{
+  font-size: 18px;
+}
+
+.entry
+{
+  line-height: 18px;
+}
+
+p.postmetadata
+{
+  border-bottom: 1px solid #ccc;
+  margin: 10px 0 0 0;
+  padding-bottom: 20px;
+}
+
+.navigation
+{
+  margin: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+/*************************************************************
+ * Default hyperlink colours.
+ *************************************************************/
+
+a:link, a:visited
+{
+  color: #005FC8;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #F10A51;
+  text-decoration: underline;
+}
+
+/*************************************************************
+ * Text formattting.
+ *************************************************************/
+
+p
+{
+  padding: 10px 0 0 0;
+}
+
+/*************************************************************
+ * Structure of web site.
+ *************************************************************/
+
+#wrapper
+{
+  margin: 0 auto 0 auto;
+  width: 750px;
+  text-align: left;
+}
+
+#header
+{
+  float: left;
+  width: 750px;
+  background: #DDDDDD;
+}
+
+#header h1
+{
+  padding: 10px 10px 0px 10px;
+}
+
+#header p
+{
+  padding: 10px;
+}
+
+#container
+{
+  float: left;
+  width: 540px;
+}
+
+.sidebar
+{
+  float: left;
+  width: 200px;
+  margin: 0 0 0 10px;
+  display: inline;
+  font-size: 11px;
+}
+
+.sidebar ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0 10px 0 10px;
+}
+
+.sidebar ul li
+{
+  padding: 10px 0 10px 0;
+}
+
+/* Sidebar header text. */
+
+.sidebar ul li h2
+{
+  font-size: 12px;
+}
+
+.brclear
+{
+  clear: both;
+}
+
+/* Remove spacing after sidebar header. */
+
+.sidebar ul ul li
+{
+  padding: 0;
+  line-height: 1.5em;
+}
+
+table#wp-calendar
+{
+  width: 100%;
+}
+
+#footer
+{
+  clear: both;
+  float: left;
+  width: 750px;  
+  background: #DDDDDD;
+}
+
+#footer p
+{
+  line-height: 1.5em;
+  margin: 5px 5px 5px 10px;
+}
+
+/*************************************************************
+ * Comments.
+ *************************************************************/
+
+.comments-template
+{
+	margin: 10px 0 0;
+	border-top: 1px solid #ccc;
+	padding: 10px 0 0;
+}
+
+.comments-template ol
+{
+	margin: 0;
+	padding: 0 0 15px;
+	list-style: none;
+}
+
+.comments-template ol li
+{
+	margin: 10px 0 0;
+	line-height: 18px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.comments-template h2, .comments-template h3
+{
+	font-family: Georgia, Sans-serif;
+	font-size: 16px;
+}
+
+.commentmetadata
+{
+	font-size: 12px;
+}
+
+.comments-template p.nocomments
+{
+	padding: 0;
+}
+
+.comments-template textarea
+{
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 12px;
+}
